@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+header h1{
+    font-family:  sans-serif;
+    font-size: 2.5rem;
+    text-align: left;
+    padding-right: 25rem;
+    padding-left: 2rem;
+}
+nav {
+    background-color:#4CAF50;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 20px 10px;
+}
+.login-button {
+    background-color: #4CAF50; /* Green background */
+    color: black; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 22px; /* Font size */
+    font-weight: bold;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #e6f7e9;
+}
+
+.text-content h1 {
+    font-size: 24px;
+    color: #555;
+}
+
+.text-content h2 {
+    font-size: 48px;
+    color: #222;
+    margin: 10px 0;
+}
+
+.text-content .shop-now {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.image-content img {
+    width: 1010px;
+    height: auto;
+}
+
+    body, html {
+        height: 100%;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .bg-image {
+        /* The image used */
+        background-color: #218838;
+      
+        /* Add the blur effect */
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+      
+        /* Full height */
+        height: 100%;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      /* Position text in the middle of the page/image */
+      .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+      }
+/*Features*/
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+.heading span{
+    background: var(--yellow);
+    color: rgb(247, 233, 74);
+    display: inline-block;
+    padding: .5rem 2rem;
+    text-align: center;
+    margin-right: 20rem;
+    clip-path: polygon(100% 0,93% 50%, 100% 99%, 0% 100%, 7% 50%,0% 0%);
+    background-color: #218838;
+}
+.features {
+    background-color: #b7e9b3;
+    font-size: 18px;
+    padding-left: 20rem;
+    text-align: center;
+}
+.features p{
+    text-align: center;
+    padding-right:20rem ;
+   margin: 20px;
+   word-spacing: 3px;
+}
+/* Home Section */
+/* .home {
+    /* text-align: center;
+    padding: 50px 20px;
+    background: url("home\ page\ img.jpg") no-repeat center center/cover;
+    color: white; }*/
+
+nav ul h1{
+        font-family:  sans-serif;
+        font-size: 2.5rem;
+        text-align: left;
+        padding-right: 45rem;
+        padding-left: 2rem;
+        margin-top: 30px;
+    }
+nav ul li {
+   text-align: center;
+   margin: 15px;
+
+}
+.home h2 {
+    font-size: 2.5rem;
+}
+
+.home p {
+    font-size: 1.5rem;
+}
+
+/* Product Section */
+.product {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 80rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 100px;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    padding-top: 10rem;
+}
+
+.image {
+   
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+    /* background-image: url('benifits2\ img.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+    margin: 5px;
+    border: 3px solid gray;
+    height: auto;
+}
+.image-left{
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+.image:hover {
+    transform: scale(1.05);
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Cart Page */
+.cart {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+#cart-items {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #218838;
+}
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .home h2 {
+        font-size: 2rem;
+    }
+
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home {
+        padding: 30px 15px;
+    }
+
+    .home h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .product h1 {
+        font-size: 2rem;
+    }
+
+    .image {
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
